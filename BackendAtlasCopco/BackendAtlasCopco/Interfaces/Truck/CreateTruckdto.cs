@@ -13,5 +13,8 @@ namespace BackendAtlasCopco.Interfaces.Truck
         public string modelo { get; set; }
         public string matricula { get; set; }
         public int camionCreado { get; set; }
+
+
+
     }
 }
