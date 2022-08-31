@@ -82,6 +82,7 @@ const getlistTrucks = listTrucks =>({
 });
 
 export function EditTrucks(TruckSelected,{t}){
+    debugger;
    return async (dispatch) =>{    
         const p = Promise.resolve( new TruckService().updateTruck(TruckSelected));
         p.then(response => {

@@ -26,7 +26,7 @@ namespace BackendAtlasCopco.Controllers
         /// Obtiene una lista de camiones
         /// </summary>
         /// <returns></returns>
-        [HttpGet ("Trucks")]
+        [HttpGet ("Truck")]
         public async Task<JsonResult> Get()
         {
             return new JsonResult(await _truckService.GetListTrucks());

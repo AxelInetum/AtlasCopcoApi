@@ -9,8 +9,9 @@ class TruckService {
   getTruckList = async () => {
     debugger;
     return await axios
-       .get(this.base_url+'GetListTruckFunction', { headers: { Authorization: `Bearer ${this.user_token}` } })
+       .get(this.base_url , { headers: { Authorization: `Bearer ${this.user_token}` } })
       .then(response => {
+        debugger;
         return response.data;
       })
       .catch(function (error) {
@@ -19,9 +20,8 @@ class TruckService {
   };
 
   insertTruck = async (truckSelected) => {
-    debugger;
     return await axios
-       .post(this.base_url+'CreateTruckFunction', truckSelected,{ headers: { Authorization: `Bearer ${this.user_token}` } })
+       .post(this.base_url, truckSelected,{ headers: { Authorization: `Bearer ${this.user_token}` } })
       .then(response => {
         return response.data;
       })
@@ -31,8 +31,10 @@ class TruckService {
   };
 
   updateTruck = async (TruckSelected) => {
+    debugger;
+
     return await axios
-       .put(this.base_url+'UpdateTruckFunction', TruckSelected,{ headers: { Authorization: `Bearer ${this.user_token}` } })
+       .put(this.base_url, TruckSelected,{ headers: { Authorization: `Bearer ${this.user_token}` } })
       .then(response => {
         return response.data;
       })
@@ -43,7 +45,7 @@ class TruckService {
 
   deleteTruck = async (id) => {
     return await axios
-       .post(this.base_url+'DeleteTruckFunction' ,id ,{ headers: { Authorization: `Bearer ${this.user_token}` } })
+       .delete(this.base_url + "/" +id ,{ headers: { Authorization: `Bearer ${this.user_token}` } })
       .then(response => {
         return response.data;
       })
