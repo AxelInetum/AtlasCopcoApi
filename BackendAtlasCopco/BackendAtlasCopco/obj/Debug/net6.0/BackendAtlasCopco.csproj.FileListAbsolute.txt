@@ -34,3 +34,5 @@ C:\proyectos\AtlasCopo\AtlasCopcoApi\BackendAtlasCopco\BackendAtlasCopco\bin\Deb
 C:\proyectos\AtlasCopo\AtlasCopcoApi\BackendAtlasCopco\BackendAtlasCopco\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\proyectos\AtlasCopo\AtlasCopcoApi\BackendAtlasCopco\BackendAtlasCopco\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\proyectos\AtlasCopo\AtlasCopcoApi\BackendAtlasCopco\BackendAtlasCopco\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\proyectos\AtlasCopo\AtlasCopcoApi\BackendAtlasCopco\BackendAtlasCopco\bin\Debug\net6.0\BackendAtlasCopco.xml
+C:\proyectos\AtlasCopo\AtlasCopcoApi\BackendAtlasCopco\BackendAtlasCopco\obj\Debug\net6.0\BackendAtlasCopco.xml

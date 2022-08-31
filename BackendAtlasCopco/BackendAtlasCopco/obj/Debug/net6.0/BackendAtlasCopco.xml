@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BackendAtlasCopco</name>
+    </assembly>
+    <members>
+        <member name="M:BackendAtlasCopco.Controllers.TruckController.Get">
+            <summary>
+            Obtiene una lista de camiones
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BackendAtlasCopco.Controllers.TruckController.Post(BackendAtlasCopco.Dto.Truck.CreateTruckdto)">
+            <summary>
+            Guarda en base de datos un nuevo camión
+            </summary>
+            <param name="CreateTruckdto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendAtlasCopco.Controllers.TruckController.Put(BackendAtlasCopco.Dto.Truck.UpdateTruckdto)">
+            <summary>
+            Actualiza un los datos de un camion
+            </summary>
+            <param name="studentDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendAtlasCopco.Controllers.TruckController.Delete(System.Int32)">
+            <summary>
+            Borra un camion de base de datos 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
