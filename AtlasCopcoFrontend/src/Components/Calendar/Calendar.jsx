@@ -44,6 +44,7 @@ export default class Calendar extends React.Component {
    
 
   handleDateClick = (arg) => { // bind with an arrow function
+    alert(arg);
   }
 }
 
